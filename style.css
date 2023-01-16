@@ -8,3 +8,16 @@
 .sony>img{
     width: 7%;
 }
+
+/* main */
+
+/* jumbotron */
+
+.jumbotron{
+    background-image: url('./img/jumbo-bg.png');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+    padding-top: 40vh;
+}
