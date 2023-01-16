@@ -1,0 +1,10 @@
+/* header */
+
+.sony{
+    background-color: black;
+    text-align: end;
+}
+
+.sony>img{
+    width: 7%;
+}
