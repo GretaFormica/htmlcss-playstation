@@ -1,3 +1,7 @@
+ul>li{
+    list-style-type: none;
+}
+
 /* header */
 
 .sony{
@@ -64,6 +68,22 @@
 
 .img-now{
     height: 50vh;
+}
+
+/* footer */
+
+footer{
+    background-color: rgb(76, 73, 230);
+    height: 70vh;
+    color: white;
+}
+
+.footer-logo-ps{
+    width: 100px;
+}
+
+.footer-logo-sony{
+    width: 200px;
 }
 
 
