@@ -1,8 +1,10 @@
+/* utils */
+
 ul>li{
     list-style-type: none;
 }
 
-/* header */
+/* HEADER */
 
 .sony{
     background-color: black;
@@ -13,7 +15,7 @@ ul>li{
     width: 7%;
 }
 
-/* main */
+/* MAIN */
 
 /* jumbotron */
 
@@ -52,6 +54,7 @@ ul>li{
     width: 200px;
 }
 
+/* new, explore, plus, now */
 .new{
     background-color: black;
     color: white;
@@ -83,7 +86,7 @@ ul>li{
     height: 50vh;
 }
 
-/* footer */
+/* FOOTER */
 
 footer{
     background-color: rgb(76, 73, 230);
