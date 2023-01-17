@@ -26,6 +26,10 @@ ul>li{
     padding-top: 40vh;
 }
 
+.img-console{
+    width: 150px;
+}
+
 /* banner */
 
 .banner{
@@ -39,7 +43,6 @@ ul>li{
 
 .new{
     background-color: black;
-    height: 90vh;
     color: white;
     padding-top: 50px;
 }
@@ -85,5 +88,7 @@ footer{
 .footer-logo-sony{
     width: 200px;
 }
+
+
 
 
