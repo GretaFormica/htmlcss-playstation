@@ -31,7 +31,7 @@
 				<img src="./img/play_logo.svg">
 			  </a>
 
-			  <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-none d-lg-block">
+			  <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-none d-lg-flex">
 				
 					<li class="nav-item dropdown">
 						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -126,9 +126,9 @@
 
 				<i class="fa-solid fa-magnifying-glass d-none d-lg-block"></i>
 
-				<a class="btn btn-primary d-block d-lg-none" 			data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-					Link with href
-				</a>
+				<button class="navbar-toggler d-block d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				  </button>
 				
 
 			</div>
@@ -396,13 +396,13 @@
 					<div class="col-12 col-md-6 ">
 						<img src="./img/ps-plus-logo.png" alt="ps-plus-logo" class="card-img-top">
 
-						<p class="my-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi praesentium ab saepe tenetur voluptatum suscipit!</p>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi praesentium ab saepe tenetur voluptatum suscipit!</p>
 
 						<button type="button" class="btn btn-primary">Scopri di piu</button>
 					</div>
 
 					<div class="col-6 d-none d-md-block">
-						<img src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="ps-plus-april-monthly-games-featured-image-block" class="img-plus">
+						<img src="./img/ps-plus-april-monthly-games-featured-image-block.png" alt="ps-plus-april-monthly-games-featured-image-block" class="img-fluid img-plus">
 					</div>
 				</div>
 			</div>
@@ -432,13 +432,13 @@
 					<div class="col-12 col-md-6 ">
 						<img src="./img/ps-now-logo-two-column.png" alt="ps-now-logo" class="card-img-top">
 
-						<p class="my-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi praesentium ab saepe tenetur voluptatum suscipit!</p>
+						<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi praesentium ab saepe tenetur voluptatum suscipit!</p>
 
 						<button type="button" class="btn btn-primary">Scopri di piu</button>
 					</div>
 
 					<div class="col-6 d-none d-md-block">
-						<img src="./img/ps-now-april-featured-image-block.png" alt="ps-now-april-monthly-games-featured-image-block" class="img-now">
+						<img src="./img/ps-now-april-featured-image-block.png" alt="ps-now-april-monthly-games-featured-image-block" class="img-fluid img-plus">
 					</div>
 				</div>
 			</div>
@@ -475,7 +475,10 @@
 				<div class="col-12 col-lg-6">
 
 					<img src="./img/ps-footer.svg" alt="logo" class="footer-logo-ps">
-					<p class="mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, maiores?</p>
+					<p class="mt-4">
+						<img src="./img/language-globe.svg" alt="globe" class="globe">
+						Country/Region: Italy
+					</p>
 
 					
 				</div>
@@ -519,7 +522,6 @@
 					<p class="mt-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus, maiores?</p>
 				</div>
 			</div>
-				
 				
 		</div>
 	</footer>

@@ -67,23 +67,19 @@ ul>li{
 
 .plus{
     background-color: lightgray;
-    height: 50vh;
     
 }
 
 .img-plus{
-    height: 50vh;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
 }
 
 .now{
     background-color: black;
     color: white;
-    height: 50vh;
     
-}
-
-.img-now{
-    height: 50vh;
 }
 
 /* FOOTER */
@@ -97,9 +93,15 @@ footer{
     width: 100px;
 }
 
+.globe{
+    width: 20px
+}
+
 .footer-logo-sony{
     width: 200px;
 }
+
+
 
 
 
